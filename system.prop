@@ -1,5 +1,5 @@
 #
-# system.prop for a300
+# system.prop for s310
 #
 service.adb.root=1
 ro.sf.lcd_density=480
