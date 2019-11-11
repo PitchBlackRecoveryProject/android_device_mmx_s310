@@ -85,6 +85,7 @@ TW_BUILD_ZH_CN_SUPPORT := true
 TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/root/init.rc
 #TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/recovery_kernel
+PB_GO := true
 
 # Hack for build
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
