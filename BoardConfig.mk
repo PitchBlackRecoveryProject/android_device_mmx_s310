@@ -86,8 +86,5 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/root/init.rc
 #TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/recovery_kernel
 
-# Sepolicy hack for old kernel, our mt6582 & mt6592 version is 26.
-POLICYVERS := 26
-
 # Hack for build
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
